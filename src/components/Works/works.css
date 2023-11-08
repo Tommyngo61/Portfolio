@@ -1,0 +1,45 @@
+#works{
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.workGrid {
+    width: 100vw;
+    max-width: 150vh;
+}
+
+.workCard {
+    height: 40vh;
+}
+.workCard.work1 {
+     background: rgb(255,179,186);
+}
+
+.workCard.work2 {
+    background: rgb(186,225,255);
+}
+
+.workCard.work3 {
+    background: rgb(255,255,186);
+}
+
+.workCard.work4 {
+    background: rgb(186,255,201);
+}
+
+.worksImg {
+    margin: 1vh;
+    margin-top: 3vh;
+    height: 20vh;
+    object-fit: contain;
+}
+
+.cardText{
+    background: rgb(255,255,255);
+}

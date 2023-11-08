@@ -1,0 +1,7 @@
+/* File: font.css */
+@font-face { 
+    font-family: "Tusker Grotesk";
+    src: url('./TuskerGrotesk-1500Medium.otf') format('opentype');
+    src: url('./TuskerGrotesk-1500Medium.ttf') format('truetype');
+    
+}

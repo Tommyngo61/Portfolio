@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "resume_portfolio",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

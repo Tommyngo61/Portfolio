@@ -1,0 +1,67 @@
+#intro {
+    height: calc(100vh - 4rem);
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.bg {
+    position: absolute;
+    top: 20rem;
+    right: 0;
+    width: 100vh;
+    height: 50vh;
+    z-index: -1;
+    object-fit: contain;
+}
+
+@media screen and (max-width:840px) {
+    .bg {
+        right: -10vh;
+    }
+    .introContent {
+        font-size: 10vw;
+    }
+    .hello {
+        font-size: 4.5rem;
+    }
+}
+
+.introContent {
+    height: 100vh;
+    width: 100vh;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hello {
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.introName {
+    color: yellow;
+}
+
+.introPara {
+    font-size: medium;
+    font-family: 'Poppins';
+    font-weight: 200;
+    letter-spacing: 1px;
+    width: 50vh;
+}
+
+.btn { 
+    background: white;
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+}
