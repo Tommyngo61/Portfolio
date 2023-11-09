@@ -12,7 +12,7 @@ export default function Intro() {
         <div className="introContent">
             <span className="hello">Hello,</span>
             <span className="introText">I'm <span className="introName">Tommy</span><br/>Designer & Developer</span>
-            <p className="introPara"><br/>I am a web developer with in-depth experience in UI/UX design. I believe websites can be expressive and informative
+            <p className="introPara"><br/>I am a web developer with in-depth experience in UI/UX designs. I believe websites can be expressive and informative
              while maintaining a user friendly, accessible and intuitive user experience.</p>
              <Link><button className="btn"><WorkIcon fontSize='large'/> Projects</button></Link>
         </div>
